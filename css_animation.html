@@ -1,15 +1,89 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+<!-- fade in image -->
+
+.fade-in-image {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+<!-- Fade in text -->
+
+div p {
+display: inline-block;
+font-family: 'Montserrat';
+font-size: 30px;
+color: black;
+text-transform: none;
+margin: 0 20px;
+opacity: 0.0;
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+</style>
 <body>
 
-<div class="w3-container w3-center w3-animate-zoom">
-  <h1>Animation is Fun!</h1>
-  <p>The w3-animate-zoom class zooms in an element (from 0% to 100% in size).</p>
-  <img src="MC.jpg" alt="Car" style="width:100%">
-</div>
+  <div class="fade-in">
+
+  <img src="MC.jpg">
+
+  </div>
+  <div>
+    <p> Fade in text </p>
+  </div>
+
 
 </body>
 </html>

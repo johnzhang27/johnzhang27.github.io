@@ -1,7 +1,7 @@
 
 /* fade in image */
 
-.fade-in-image {
+.fade-in {
 animation: fadeIn ease 20s;
 -webkit-animation: fadeIn ease 20s;
 -moz-animation: fadeIn ease 20s;

@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-<style>
-<!-- fade in image -->
+
+/* fade in image */
 
 .fade-in-image {
 animation: fadeIn ease 20s;
@@ -34,7 +32,7 @@ animation: fadeIn ease 20s;
 0% {opacity:0;}
 100% {opacity:1;}
 }
-<!-- Fade in text -->
+/*Fade in text*/
 
 div p {
 display: inline-block;
@@ -72,18 +70,3 @@ animation: fadeIn ease 10s;
 0% {opacity:0;}
 100% {opacity:1;}
 }
-</style>
-<body>
-
-  <div class="fade-in">
-
-  <img src="MC.jpg">
-
-  </div>
-  <div>
-    <p> Fade in text </p>
-  </div>
-
-
-</body>
-</html>

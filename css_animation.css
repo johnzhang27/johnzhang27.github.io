@@ -2,11 +2,11 @@
 /* fade in image */
 
 .fade-in {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -42,8 +42,8 @@ color: black;
 text-transform: none;
 margin: 0 20px;
 opacity: 0.0;
-animation: fadeIn ease 10s;
--webkit-animation: fadeIn ease 10s;
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
 }
 
 @keyframes fadeIn {

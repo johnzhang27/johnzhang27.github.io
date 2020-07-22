@@ -33,7 +33,7 @@
   100% {opacity:1;}
 }
 /*Fade in text*/
-div ul{
+div li{
   display: inline-block;
   font-family: "Gill Sans", sans-serif;
   font-size: 20px;

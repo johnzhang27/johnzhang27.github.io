@@ -33,7 +33,43 @@
   100% {opacity:1;}
 }
 /*Fade in text*/
+div ul{
+  display: inline-block;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-transform: none;
+  margin: 20px;
+  opacity: 0.0;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  }
 
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 div p {
 display: inline-block;
 font-family: "Gill Sans", sans-serif;
